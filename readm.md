@@ -23,14 +23,22 @@ $cd notas
 ```
 $git init
 ```
+# Exibe o a condição da árvore de trabalho
+ git status
 
-1 - git status - serve para exibir as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
+# Adiciona um arquivo
+ git add <filename ou . >
 
-* adiciona um arquivo
-2 - git add <filename ou . >
-3 - git restore --staged <filename ou . >
-4 - git branch <branchname>
-5 - git checkout <branchname>
+#
+ git restore --staged <filename ou . >
+
+
+ git branch <branchname>
+
+
+ git checkout <branchname>
+
+
 6 - git checkout -b <branchname>
 7 - git commit -m "<description>"
 8 - git push
