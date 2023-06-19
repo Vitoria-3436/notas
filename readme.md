@@ -52,5 +52,5 @@ $git init
 #Faz o download dos objetos e refs
 10 - git fetch
 
-#P
+#Puxa as atualizações do github
 11 - git pull
